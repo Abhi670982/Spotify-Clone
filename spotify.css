@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+}
+nav {
+    display: flex;
+}
+
+header {
+
+    height: 53px;
+    background-color: black;
+    display: flex;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+}
+.sign_up-btn{
+    margin-right: 25px;
+  color: white;
+  background-color: black;
+  border-style: none;
+  /* font-weight: bolder; */
+}
+
+.log_in-btn{
+    height: 45px;
+  width: 103px;
+  border-radius: 30px;
+  /* font-weight:bolder; */
+}
+.search input {
+    color: white;
+    background-color: black;
+    border:2px solid white;
+    width: 495px;
+    height: 30px;
+    border-radius:40px;
+    margin-top: 12px;
+    margin-left: 424px;
+    padding: 0 12px;
+}
+
+.main-box {
+    display: flex;
+}
+
+.container {
+    /* min-width: 50vh; */
+    margin: 25px 27px;
+    /* min-height: 80vh; */
+    background-color:black;
+    /* background-color: white; */
+    color: white;
+     /* border: 2px solid yellow; */
+}
+.library{
+     margin-left: 26px;
+     display: flex;
+     font-size: larger;
+     
+}
+.plussign{
+    margin-left: 140px;
+    font-size: larger;
+}
+.class1{
+    margin-left: 12px;
+    /* border: 2px solid white; */
+    margin-right: 12px;
+    background-color:rgb(41, 29, 29);
+    min-height: 25vh;
+    border-radius: 15px;
+   
+}
+.class2{
+    margin-left: 10px;
+    color: black;
+    background-color: white ;
+    border-radius: 45px;
+    width: 140px;
+    height: 38px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+   font-size: larger;
+    margin-top: 14px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+   
+}
+.class2:hover{
+    font-weight: bolder;
+}
+.class3{
+    margin-left: 6px;
+}
+.class4{
+    margin:14px;
+    margin-top: 14px;
+    display: flex;
+    font-weight: bolder;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c_extra{
+  margin-left: 15px;
+}
+.english{
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 6vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.artist {
+    background-color:rgb(41, 29, 29);
+    /* border: 2px dotted red; */
+    margin-bottom: 27px;
+    margin-top: 26px;
+    height: 79vh;
+    width: 78vw;
+    max-width: 78vw;
+    border-radius: 10px;
+}
+.popular-artist {
+    color: white;
+    background-color: rgb(41, 29, 29);
+    margin-left: 36px;
+    margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin-bottom: 0px;
+    font-weight:bolder;
+}
+.artist-pic {
+    color: white;
+    max-width: 70vw;
+    min-height: 27vh;
+    margin-left: 9px;
+    display: flex;
+}
+.arijit-img {
+   /* border: 2px solid white ; */
+    border-radius: 50%;
+    height: 20vh;
+    object-fit: cover;
+    margin-left: 42px;
+    width: 150px;
+}
+
+.arijit-name {
+    margin-left: 86px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.Shreya-name {
+    margin-left: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.artist2{
+    margin-top: 40px;
+}
+.album-img{
+    height: 26vh;
+    object-fit: cover;
+    margin-left: 42px;
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.albums-name{
+    margin-left: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.pop1{
+  color: white;
+  background-color: rgb(41, 29, 29);
+  margin-left: 36px;
+  margin-top: 11px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.artist-pic2{
+    color: white;
+    margin: 10px 10px;
+  /* border: 2px solid white; */
+    min-height: 27vh;
+    max-width: 70vw;
+    display: flex;
+}
+
+.playlists {
+    margin-top: -25px;
+    background-color: rgb(41, 29, 29);
+    color: white;
+    min-height: 72vh;
+    margin-bottom: 2px;
+    margin-left: 27px;
+    border: 3px solid blue;
+}
+
+.class-footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-left: 25px;
+}
